@@ -11,7 +11,7 @@ jobs:
 
     env:
       APP_NAME: react-todo-app
-      OPENSHIFT_NAMESPACE: sherly-hcrh7-dev
+      OPENSHIFT_NAMESPACE: sherly-hcrh-dev
       IMAGE_REGISTRY: quay.io
       IMAGE_TAGS: latest                       
       OPENSHIFT_SERVER: ${{ secrets.OPENSHIFT_SERVER }}
